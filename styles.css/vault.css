@@ -177,7 +177,6 @@ background-color: #30B868;
 .scattered-note
 {
     padding: 30px;
-    
     max-width: 322px;
     text-align: center;
     border-radius: 8px;
@@ -186,6 +185,12 @@ background-color: #30B868;
 
 .scattered-note img {
     margin-bottom: 16px;
+    background: #F95555;
+    width: 60px;  
+    height: 60px; 
+    border-radius: 50%;
+    padding: 8px; 
+    display: block;
 }
 
 .scattered-note h3 {
@@ -198,6 +203,63 @@ background-color: #30B868;
     font-size: 16px;
     color: #627382;
     font-weight: 274px;
+    line-height: 20px;  
+}
+
+#solution-brain 
+{
+    margin-top: 120px;
+    padding: 0px 120px 0px 80px;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    background: white;
+    
+}
+
+.solution-content{
+    flex-direction:row ;
+    gap: 70px;
+}
+.solution-content .half p {
+    font-size: 16px;
     line-height: 20px;
-     
+    text-align: left;
+    color: #30B868;
+    margin-bottom: 16px;
+
+}
+.solution-content .half h1 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+.solution-content .half .solution-desc {
+    color: #627382; 
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.solution-items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.items {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.solution-items .items img {
+    width: 24px;
+    height: 24px;
+    flex: none;
+}
+
+.item-desc {
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+    margin: 0;
 }
