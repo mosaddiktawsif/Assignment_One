@@ -24,14 +24,19 @@ nav {
     
 }
 .logo {
+    
     display: flex;
     list-style-type: none;
     text-decoration: none ;
+    align-items: center;
+    
     
 }
 nav .logo a{
     text-decoration: none;
     color: black;
+    justify-content: space-between;
+    text-align: center;
     
 }
 .btn { 
@@ -42,7 +47,6 @@ nav .logo a{
     margin-left: 380px;
     margin-right: 120px;
     font-size: 16px;
-    font-weight: 600px;
     color: white;
 }
 #banner {
@@ -127,7 +131,8 @@ background-color: #30B868;
    border-radius: 4px;
    gap: 10px;
    
-}.arr-btn{
+}
+.arr-btn{
     width: 20px;
     height: 20px;
     text-align: center;
@@ -273,13 +278,12 @@ background-color: #30B868;
 #ready {
     max-width: 1600px;
     background: white;
-    border: 2px solid red;
-     display: flex;
+    display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    margin-top: 130px;
+    padding: 120px;
 }
 .ready-one {
     width: 1360px;
@@ -313,3 +317,62 @@ background-color: #30B868;
     margin-top: 24px;
 }
 
+#footer {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    background: #001931;
+    gap:80px;
+   
+}
+.footer-content{
+    max-width: 1360px;
+    padding: 120px 120px 30px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.social h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.icons {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+}
+
+.icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #001931;
+}
+
+.line{
+    max-width: 1280px;
+    align-items: center;
+    height: 2px;
+    background: grey;
+}
+
+.copyright 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.copyright p {
+    font-size: 16px;
+    color: #FAFAFA;
+    margin-bottom: 30px;
+}
